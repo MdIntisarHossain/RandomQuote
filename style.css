@@ -40,6 +40,30 @@ body{
 .fa-quote-left ,.fa-quote-right{
     font-size: 1.5rem;
 }
+.button-container{
+    display:flex;
+    justify-content: space-between;
+}
+
+button{
+    color: rgb(126, 61, 61);
+    background-color: rgb(214, 193, 193);
+    border-radius: 20px;
+}
+button:active{
+    transform: translate(0,0.2rem);
+
+}
+
+.twitter-button:hover{
+    color: rgb(76, 76, 226);
+}
+
+.fa-twitter{
+    font-size: 25px;
+}
+
+
 
 /* Media Query */
 @media screen and (max-width:1000px){
