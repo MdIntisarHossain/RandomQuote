@@ -68,7 +68,7 @@ button:active{
     font-size: 1rem;
 }
 
-/* Media Query */
+/* Media Query for smartphone */
 @media screen and (max-width:1000px){
     .quote-container{
         margin-left: 10px ;
